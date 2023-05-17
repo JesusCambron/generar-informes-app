@@ -1,0 +1,36 @@
+.btn {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  cursor: pointer;
+  color: white;
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
+
+.btn__primary {
+  border: thin solid var(--primary-color);
+  background-color: var(--primary-color);
+}
+
+.btn__secondary {
+  border: thin solid var(--secondary-color);
+  background-color: var(--secondary-color);
+}
+
+.btn__add {
+  border: thin solid var(--ok-detail-color);
+  background-color: var(--ok-color);
+}
+
+.btn__delete {
+  border: thin solid var(--error-detail-color);
+  background-color: var(--error-color);
+}
+
+.btn__cancel {
+  border: thin solid var(--cancel-detail-color);
+  background-color: var(--cancel-color);
+}

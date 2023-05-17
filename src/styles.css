@@ -1,1 +1,106 @@
 /* You can add global styles to this file, and also import other style files */
+/* ********** Custom Properties ********** */
+
+:root {
+  --primary-color: #5e9bbe;
+  --secondary-color: #296460;
+  --detail-primary-color: #01c282;
+  --detail-secondary-color: #0c120c;
+  --error-color: #d11a29a4;
+  --error-detail-color: #d11a29;
+  --warning-color: #eed202;
+  --warning-detail-color: #eed202a4;
+  --cancel-color: #858585a4;
+  --cancel-detail-color: #858585;
+  --ok-color: #07aa0fa4;
+  --ok-detail-color: #07aa0f;
+  --font: "Merriweather", serif;
+}
+
+/* ********** Reset ********** */
+
+html {
+  box-sizing: border-box;
+  font-family: var(--font);
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  /* color: var(--text-color); */
+}
+
+a {
+  /* color: var(--link-color); */
+  transition: all 0.5s ease-out;
+}
+
+a:hover {
+  opacity: 0.75;
+}
+
+h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+h2 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+h3 {
+  margin: 0;
+  font-size: 1.25rem;
+}
+
+h4 {
+  margin: 0;
+  font-size: 1rem;
+}
+
+h5 {
+  margin: 0;
+  font-size: 0.85rem;
+}
+
+h6 {
+  margin: 0;
+  font-size: 0.7rem;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+p {
+  line-height: 1.6;
+}
+
+/* ********** Components ********** */
+.input {
+  border-radius: 5px;
+  border: solid thin var(--primary-color);
+}
+
+.input:hover {
+  cursor: pointer;
+}
+/* ********** Utilities ********** */
+/* ********** Site Styles ********** */
+
+.table-container {
+  overflow: auto;
+}
+
+.container {
+  width: 70%;
+}

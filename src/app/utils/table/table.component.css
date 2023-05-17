@@ -1,0 +1,13 @@
+table,
+th,
+td {
+  border-collapse: collapse;
+}
+
+.table {
+  width: inherit;
+}
+
+.table-container {
+  overflow: auto;
+}

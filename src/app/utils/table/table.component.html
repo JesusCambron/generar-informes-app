@@ -1,0 +1,14 @@
+<table class="table">
+  <thead>
+    <tr>
+      <th *ngFor="let encabezado of encabezados">{{ encabezado }}</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let objeto of tBodyData">
+      <td *ngFor="let propiedad of tBodyPropiedades">
+        {{ objeto[propiedad] }}
+      </td>
+    </tr>
+  </tbody>
+</table>
