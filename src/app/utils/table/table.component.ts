@@ -5,8 +5,4 @@ import { Component, Input } from '@angular/core';
   templateUrl: './table.component.html',
   styleUrls: ['./table.component.css'],
 })
-export class TableComponent {
-  @Input() encabezados: Array<string> = [];
-  @Input() tBodyPropiedades: Array<string> = [];
-  @Input() tBodyData: Array<any> = [];
-}
+export class TableComponent {}

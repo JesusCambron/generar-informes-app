@@ -96,11 +96,3 @@ p {
 }
 /* ********** Utilities ********** */
 /* ********** Site Styles ********** */
-
-.table-container {
-  overflow: auto;
-}
-
-.container {
-  width: 70%;
-}

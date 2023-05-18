@@ -1,14 +1,10 @@
 <table class="table">
   <thead>
-    <tr>
-      <th *ngFor="let encabezado of encabezados">{{ encabezado }}</th>
+    <tr class="encabezados">
+      <ng-content></ng-content>
     </tr>
   </thead>
-  <tbody>
-    <tr *ngFor="let objeto of tBodyData">
-      <td *ngFor="let propiedad of tBodyPropiedades">
-        {{ objeto[propiedad] }}
-      </td>
-    </tr>
+  <tbody class="tbody">
+    <ng-content></ng-content>
   </tbody>
 </table>
