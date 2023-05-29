@@ -3,7 +3,3 @@
   height: 100%;
   padding-left: 8px;
 }
-
-.input__date:focus-visible {
-  outline: 2px solid var(--primary-color);
-}

@@ -1,1 +1,28 @@
-<p>informes-form works!</p>
+<section class="form__section">
+  <div class="form__group__container">
+    <label for="informes" class="inline-block">Informe</label>
+    <div class="select__container">
+      <app-select selectName="informes" id="informes">
+        <option value="">Informes generales</option>
+        <option value="">Informes generales 2</option>
+      </app-select>
+    </div>
+  </div>
+  <div class="form__group__container">
+    <label class="inline-block">Periodo</label>
+    <div class="periodo__container">
+      <div class="date__container">
+        <app-input-date inputName="fechaInicial" />
+      </div>
+      <small class="txt-align-center a-date"> - a - </small>
+      <div class="date__container">
+        <app-input-date inputName="fechaFinal" />
+      </div>
+    </div>
+  </div>
+  <div class="form__group__container m-left-auto">
+    <div class="btn_container m-left-auto">
+      <app-button text="Generar" />
+    </div>
+  </div>
+</section>

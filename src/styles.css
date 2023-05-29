@@ -86,13 +86,68 @@ p {
 }
 
 /* ********** Components ********** */
-.input {
+.input,
+.select {
   border-radius: 5px;
   border: solid thin var(--primary-color);
 }
 
-.input:hover {
+.input:hover,
+.select {
   cursor: pointer;
 }
+
+.input__date:focus-visible,
+select:focus-visible {
+  outline: 2px solid var(--primary-color);
+}
+
 /* ********** Utilities ********** */
+.inline-block {
+  display: inline-block;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.txt-align-center {
+  text-align: center;
+}
+
+.margin-auto {
+  margin: auto;
+}
+
 /* ********** Site Styles ********** */
+
+h1 {
+  max-width: 30rem;
+  min-width: 10rem;
+}
+
+.article {
+  margin: auto;
+  padding: 0 1.5rem;
+  max-width: 1024px;
+  min-width: 15rem;
+}
+
+.form__group__container {
+  margin-left: 0;
+  flex: 1 0 100%;
+  max-width: 30rem;
+  margin-top: 1rem;
+}
+
+.form__group__container > * {
+  margin-top: 0.5rem;
+}
+
+/* Tablet */
+@media screen and (min-width: 768px) {
+}
+
+/* Desktop */
+@media screen and (min-width: 1024px) {
+}

@@ -9,6 +9,7 @@ import { TableComponent } from './utils/table/table.component';
 import { ButtonComponent } from './utils/forms/button/button.component';
 import { InputDateComponent } from './utils/forms/input-date/input-date.component';
 import { HomeComponent } from './components/home/home.component';
+import { SelectComponent } from './utils/forms/select/select.component';
 
 @NgModule({
   declarations: [
@@ -19,6 +20,7 @@ import { HomeComponent } from './components/home/home.component';
     HomeComponent,
     ButtonComponent,
     InputDateComponent,
+    SelectComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
